@@ -47,7 +47,7 @@ public:
         // return result;   // (Commented so Method 2 can execute below)
 
 
-## Method 2: Prefix Sum (O(n²))
+## Method 2: Prefix Sum Optimization (O(n²))
         /* --------------------------------------------------------------------
            METHOD 2: Using Prefix Sum  — O(n²)
            --------------------------------------------------------------------
