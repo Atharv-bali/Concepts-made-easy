@@ -3,7 +3,7 @@
 This repository explains how to solve the **"Minimum Length After Removals"** problem using a simple and clean **Prefix Sum** approach.
 
 If you're new to Prefix Sum, check the detailed explanation here:
-🔗 [https://github.com/Atharv-bali/Concepts-made-easy/tree/main/Daily_practice_questions/PrefixSum](https://github.com/Atharv-bali/Concepts-made-easy/tree/main/Daily_practice_questions/PrefixSum)
+🔗 [https://github.com/Atharv-bali/Concepts-made-easy/tree/main/Daily_practice_questions/PrefixSum](https://github.com/Atharv-bali/Concepts-made-easy/tree/main/DSA-concepts/Daily_practice_questions/PrefixSum)
 
 ---
 
