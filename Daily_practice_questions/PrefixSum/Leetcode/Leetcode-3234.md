@@ -71,7 +71,7 @@ public:
            This reduces time complexity from O(n³) → O(n²).
         -------------------------------------------------------------------- */
 
-        result = 0;
+        int result = 0;
         vector<int> prefix(n, 0);
 
         prefix[0] = (s[0] == '1');
@@ -113,7 +113,7 @@ public:
            CASE 3: zero² < one → valid and can skip ahead  
         -------------------------------------------------------------------- */
 
-        result = 0;
+        int result = 0;
         vector<int> cumCountOne(n, 0);
 
         cumCountOne[0] = (s[0] == '1');
