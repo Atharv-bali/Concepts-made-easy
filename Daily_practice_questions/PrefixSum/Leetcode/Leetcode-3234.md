@@ -1,12 +1,9 @@
-📘 Table of Contents
+## 📘 Table of Contents
+- [Method 1: Brute Force (O(n³))](#method-1-brute-force-on³)
+- [Method 2: Prefix Sum (O(n²))](#method-2-prefix-sum-on²)
+- [Method 3: Jump Optimization (~On√n)](#method-3-jump-optimization-on√n)
+- [Final Complexity Comparison](#final-complexity-comparison)
 
-Method 1: Brute Force (O(n³))
-
-Method 2: Prefix Sum Optimization (O(n²))
-
-Method 3: Jump Optimization (~O(n√n))
-
-Final Complexity Comparison
 
 Method 1: Brute Force (O(n³))
 
@@ -161,7 +158,12 @@ Method 3: Jump Optimization (~O(n√n))
 Final Complexity Comparison
 
 
-Method	Time Complexity	Status
-Brute Force	O(n³)	❌ Too slow
-Prefix Sum	O(n²)	✅ Good
-Jump Method	~O(n √n)	🚀 Best
+| Method | Time Complexity | Status | 
+
+| ----------- | --------------- | ---------- | 
+
+| Brute Force | O(n³) |  Too slow | 
+
+| Prefix Sum | O(n²) |  Good | 
+
+| Jump Method | ~O(n √n) |  Best |
