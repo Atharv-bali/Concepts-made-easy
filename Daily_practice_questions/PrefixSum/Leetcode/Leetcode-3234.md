@@ -49,6 +49,7 @@ public:
         }
 
         // return result;   // (Commented so Method 2 can execute below)
+    }
         ```
 
 ## Method 2: Prefix Sum Optimization (O(n²))
@@ -89,6 +90,7 @@ public:
         }
 
         // return result;   // (Commented so Method 3 can run)
+    }
         ```
 
 ## Method 3: Jump Optimization (~On√n)
