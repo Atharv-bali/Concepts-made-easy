@@ -1,6 +1,6 @@
 ## 📘 Table of Contents
 - [Method 1: Brute Force (O(n³))](#method-1-brute-force-on)
-- [Method 2: Prefix Sum Optimization (O(n²))](#method-2-prefix-sum-optimization-on²)
+- [Method 2: Prefix Sum Optimization (O(n²))](#method-2-prefix-sum-optimization-on)
 - [Method 3: Jump Optimization (~O(n√n))](#method-3-jump-optimization-onn)
 - [Final Complexity Comparison](#final-complexity-comparison)
 
