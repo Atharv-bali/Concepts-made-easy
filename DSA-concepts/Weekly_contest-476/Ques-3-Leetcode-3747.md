@@ -1,6 +1,6 @@
 #  Count Distinct Numbers Without Zero
 
-## 📌 Probability Basics
+##  Probability Basics
 
 If we can fill digits only using numbers **1 to 9**, then:
 
@@ -18,7 +18,7 @@ So the total combinations are:
 
 ---
 
-## 📌 Approach
+##  Approach
 
 We can only use digits from **1 to 9** (no zero allowed).
 
@@ -28,7 +28,7 @@ We want the number of valid numbers **from 1 to 423** that do **not** contain ze
 
 ---
 
-### ✅ Step 1: Count 1-digit and 2-digit valid numbers
+###  Step 1: Count 1-digit and 2-digit valid numbers
 
 ```
 _     → 9 options  
@@ -43,7 +43,7 @@ So total:
 
 ---
 
-### ✅ Step 2: Count valid 3-digit numbers
+###  Step 2: Count valid 3-digit numbers
 
 Since the first digit of 423 is **4**, all numbers of the form:
 
@@ -77,7 +77,7 @@ This covers all valid numbers from **100 to 399**.
 
 ---
 
-### ✅ Step 3: Handle numbers starting with 4
+###  Step 3: Handle numbers starting with 4
 
 Now look at `4 _ _`.
 The second digit of 423 is **2**.
@@ -110,7 +110,7 @@ This covers valid numbers up to **419**.
 
 ---
 
-### ✅ Step 4: Handle `4 2 _`
+###  Step 4: Handle `4 2 _`
 
 Now we have:
 
@@ -132,7 +132,7 @@ So add:
 
 ---
 
-## 🧾 C++ Code
+##  C++ Code
 
 ```cpp
 class Solution {
