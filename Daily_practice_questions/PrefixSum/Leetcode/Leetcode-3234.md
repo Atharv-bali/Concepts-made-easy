@@ -7,7 +7,9 @@
 
 ## Method 1: Brute Force (O(n³))
 
+
 class Solution {
+
 public:
     int numberOfSubstrings(string s) {
     
