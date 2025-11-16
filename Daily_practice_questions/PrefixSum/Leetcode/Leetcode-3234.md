@@ -1,7 +1,7 @@
 ## 📘 Table of Contents
-- [Method 1: Brute Force (O(n³))](#method-1-brute-force-on³)
-- [Method 2: Prefix Sum Optimization (O(n²))](#method-2-prefix-sum-optimization-on²)
-- [Method 3: Jump Optimization (~O(n√n))](#method-3-jump-optimization-on√n)
+- [Method 1: Brute Force (O(n³))](#method-1-brute-force-o(n)³)
+- [Method 2: Prefix Sum Optimization (O(n²))](#method-2-prefix-sum-optimization-o(n)²)
+- [Method 3: Jump Optimization (~O(n√n))](#method-3-jump-optimization-o(n√n))
 - [Final Complexity Comparison](#final-complexity-comparison)
 
 
