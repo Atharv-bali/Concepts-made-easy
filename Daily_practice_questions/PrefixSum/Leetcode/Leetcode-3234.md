@@ -1,12 +1,14 @@
-## 📘 Table of Contents
-- [Method 1: Brute Force (O(n³))](#method-1-brute-force-on³)
-- [Method 2: Prefix Sum Optimization (O(n²))](#method-2-prefix-sum-on²)
-- [Method 3: Jump Optimization (~O(n√n))](#method-3-jump-optimization-on√n)
-- [Final Complexity Comparison](#final-complexity-comparison)
----
+📘 Table of Contents
 
-## Method 1: Brute Force (O(n³))
+Method 1: Brute Force (O(n³))
 
+Method 2: Prefix Sum Optimization (O(n²))
+
+Method 3: Jump Optimization (~O(n√n))
+
+Final Complexity Comparison
+
+Method 1: Brute Force (O(n³))
 class Solution {
 public:
     int numberOfSubstrings(string s) {
@@ -44,10 +46,9 @@ public:
             }
         }
 
+Method 2: Prefix Sum Optimization (O(n²))
         // return result;   // (Commented so Method 2 can execute below)
 
-
-## Method 2: Prefix Sum Optimization (O(n²))
         /* --------------------------------------------------------------------
            METHOD 2: Using Prefix Sum  — O(n²)
            --------------------------------------------------------------------
@@ -82,10 +83,9 @@ public:
             }
         }
 
+Method 3: Jump Optimization (~O(n√n))
         // return result;   // (Commented so Method 3 can run)
 
-
-## Method 3: Jump Optimization (~O(n√n))
         /* --------------------------------------------------------------------
            METHOD 3: Optimized Jump Method — approx O(n √n)
            --------------------------------------------------------------------
@@ -189,11 +189,8 @@ public:
     }
 };
 
-
-## Final Complexity Comparison
-
-| Method      | Time Complexity | Status     |
-| ----------- | --------------- | ---------- |
-| Brute Force | O(n³)           | ❌ Too slow |
-| Prefix Sum  | O(n²)           | ✅ Good     |
-| Jump Method | ~O(n √n)        | 🚀 Best    |
+Final Complexity Comparison
+Method	Time Complexity	Status
+Brute Force	O(n³)	❌ Too slow
+Prefix Sum	O(n²)	✅ Good
+Jump Method	~O(n √n)	🚀 Best
