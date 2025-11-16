@@ -12,7 +12,7 @@ This arranges the elements from **smallest to largest**.
 
 ---
 
-## 📌 Approach
+##  Approach
 
 We want to maximize the expression:
 
@@ -44,7 +44,7 @@ nums[n-1] + nums[n-2] - nums[0]
 
 ---
 
-## 🧾 C++ Code
+##  C++ Code
 
 ```cpp
 class Solution {
