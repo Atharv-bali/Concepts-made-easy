@@ -79,6 +79,7 @@ db.courses.insertMany([
 ```
 
 **If we run these operations once we will get**
+https://github.com/Atharv-bali/Concepts-made-easy/blob/main/MERN/MongoDB/mongoDB.courses.json
 
 ## Why to use mongoose, when we have MongoDB
 MongoDB is very flexible, and at times too flexible
