@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    background-color: aqua;
+}
+
+
+ul {
+    display: flex;
+    /* flex-direction: row; */
+    list-style-type: none;
+    /* gap: 50px; */
+    padding: 20px;
+}
+
+li {
+    margin: 6px;
+    padding-right: 30px;
+}
+
+/* body {
+    background-color: blue;
+} */
