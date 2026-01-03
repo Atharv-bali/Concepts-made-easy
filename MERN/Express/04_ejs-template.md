@@ -177,6 +177,8 @@ project
 </html>
 ```
 
+Output: https://github.com/Atharv-bali/Concepts-made-easy/blob/main/MERN/Express/output1ejs.png
+
 Values are coming from Express
 HTML is generated dynamically
 
@@ -285,6 +287,8 @@ Inside views folder make another file **navbar.ejs**
     </div>
 </nav>
 ```
+
+Output: https://github.com/Atharv-bali/Concepts-made-easy/blob/main/MERN/Express/output2ejs.png
 
 ---
 
