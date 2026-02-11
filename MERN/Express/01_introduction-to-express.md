@@ -12,9 +12,13 @@ Express documentation to write basic program: https://expressjs.com/en/starter/h
 **Why express ?**
 Node.js can be used to create a backend server, but writing everything using plain Node.js becomes messy as 
 --> The project grows.
+
 --> Problem with pure Node.js
+
 --> Routing is manual
+
 --> Code becomes hard to read
+
 --> Difficult to manage many endpoints
 
 Example using nodejs without express
@@ -57,9 +61,13 @@ app.listen(3000);
 **Advantages with express**
 
 --> Clean and readable routing
+
 --> Built on top of Node.js
+
 --> Easy middleware support
+
 --> Easy to serve static files
+
 --> Better structure and security
 
 ---
@@ -67,8 +75,11 @@ app.listen(3000);
 ## How to run server
 
 --> First use npm init -y, then make main.js file
+
 --> We can use "node filename.js", if the page changes it does not automatically re-renders
+
 --> To cure this, we use nodemon, to use it
+
 1) npm install -g nodemon
 2) nodemon filename.js
 
@@ -101,6 +112,7 @@ app.listen(port, () => {
 
 ## Use of slug
 If we need to configure many endpoints with similar pattern we can use slug.
+
 It dynamically tells the server what to reply based on the endpoint from where request is coming to the server.
 
 ---
