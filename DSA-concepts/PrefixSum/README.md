@@ -1,6 +1,6 @@
-# 🌟 Prefix Sum — A Beginner-Friendly Guide
+#  Prefix Sum — A Beginner-Friendly Guide
 
-## 📘 Table of Contents
+##  Table of Contents
 - [Introduction](#introduction)
 - [What is Prefix Sum?](#what-is-prefix-sum)
 - [Case 1: Calculating Sum of Queries](#case-1-calculating-sum-of-queries-from-l-to-r)
